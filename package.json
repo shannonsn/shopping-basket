@@ -1,0 +1,26 @@
+{
+  "name": "shopping-basket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/ts-mocha ./test/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.projectcodex.co/shannonsn/shopping-basket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^8.0.50",
+    "mocha": "^4.0.1",
+    "ts-mocha": "^1.0.3",
+    "typescript": "^2.6.1"
+  }
+}
